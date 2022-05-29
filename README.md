@@ -81,4 +81,4 @@ func main() {
 7. Create new pull request
 
 # License
-Libcache is released under the MIT license. See [LICENSE](https://github.com/shaj13/tlsreconciler/blob/main/LICENSE)
+tlsreconciler is released under the MIT license. See [LICENSE](https://github.com/shaj13/tlsreconciler/blob/main/LICENSE)

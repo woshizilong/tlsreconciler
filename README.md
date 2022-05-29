@@ -54,7 +54,7 @@ func main() {
 
 	// Options
 	sig := tlsreconciler.WithSIGHUPReload(sigc)
-	certs := tlsreconciler.WithCertificatesPaths("cert_file", "cert_key", "cert_ca")
+	certs := tlsreconciler.WithCertificatesPaths("cert_file", "key_file", "ca_file")
 	verify := tlsreconciler.WithVerifyConnection()
 	cb := tlsreconciler.WithOnReload(func(c *tls.Config) {
 		log.Println("TLS certificates rotated !!")

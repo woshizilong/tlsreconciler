@@ -8,6 +8,7 @@ A Hitless TLS Certificate Rotation Reconciliation Library.
 
 ## Introduction 
 > If a certificate got issued, it will have to be rotated.
+
 Rotating TLS certificates manually may quickly get out of hand—particularly when you have to manage hundreds of certificates—and becomes completely unmanageable if you issue certificates that expire within hours, instead of months.
 tlsreconciler is here to help with that, by reloading rotated certificate including root CA and provide TLS reconciliation to connections in real time and without restarting the application. 
 
